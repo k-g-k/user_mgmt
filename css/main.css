@@ -1,0 +1,138 @@
+/* TODO: Style your site */
+body {
+  font-family: "Century Gothic", sans-serif;
+  margin: 1em;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 2em;
+  /*font-weight: bold;*/
+  padding-bottom: 0.50em;
+}
+
+.form-container {
+  width: 17em;
+  min-height: 13em;
+  border-radius: 0.5em;
+  padding: 1em;
+  position: relative;
+  float: left;
+  text-align:center;
+  background: crimson;
+  color:white;
+  box-shadow: 0 0 2px #888888;
+  border: solid;
+  margin-bottom: 2em;
+  margin-right: 1em;
+}
+
+.user-form {
+  position: relative;
+  /*display:inline-block;*/
+  /*padding: 0.5em;*/
+}
+
+label {
+  padding-bottom:1em;
+}
+
+.first-name, .last-name, .email {
+  outline: none;
+  padding: 1em 1em 1em 1em;
+  width: 20em;
+  text-align: center;
+  font-family: "Century Gothic", sans-serif;
+  color: transparent;
+  text-shadow : 0 0 0 #000;
+  /*border-top: 1px solid #777;*/
+  border: transparent;
+  border-radius:0;
+}
+
+.last-name, .email {
+  border-top: 1px solid #888;
+}
+
+
+/*input[type="text"], input[type="email"] {
+  color: transparent;
+  text-shadow : 0 0 0 #000;
+}*/
+
+input[type="text"]:focus, input[type="email"]:focus {
+  padding: 1em 1.25em 1em 1.25em;
+  border-radius: .5em;
+}
+
+
+.submit-button {
+  padding-top: 1em;
+  float: center;
+  width: 100%;
+  /*display: inline-block;*/
+}
+
+.submit-form {
+  background: whitesmoke;
+  padding: 1em;
+  border: none;
+  border-radius: 0.5em;
+  outline:none;
+  cursor: pointer;
+  font-family: "Century Gothic", sans-serif;
+  box-shadow: 0 0 1px #888888;
+  /*position: absolute;*/
+}
+
+
+.user-list {
+  background: white;
+  padding: 1.5em;
+  float: left;
+  position: relative;
+  width: 50%;
+  min-width: 28em;
+  display: inline-block;
+  box-shadow: 0 0 2px #888888;
+  border: white 1px solid;
+  color: grey;
+  overflow: auto;
+  margin-top: 0.5em;
+}
+
+
+.display-labels {
+  font-size: 1.5em;
+  color:black;
+  padding-bottom:1em;
+  padding-top: 0.5em;
+}
+
+.display-users {
+  padding: 1em 0.5em 1em 0.5em;
+  margin-top: 0.5em;
+  box-shadow: 1px 1px 2px 1px #888888;
+  display: inline-block;
+  width: 98%;
+}
+
+
+.display-full-name {
+  max-width: 40%;
+}
+
+.remove-users {
+  width: 5%;
+}
+
+.remove {
+  float:right;
+  position:absolute;
+  right: 3em;
+}
+.display-email {
+  width: 55%;
+  float: right;
+  padding-right: 1em;
+}
